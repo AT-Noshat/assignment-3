@@ -33,9 +33,9 @@
 
     <title>Assignment-3</title>
 </head>
-<body class="manrope-font">
+<body class="manrope-font mx-5 lg:mx-36 mt-14">
     <header>
-        <nav>
+        <nav class="mb-14">
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
                   <div class="dropdown">
@@ -59,7 +59,7 @@
                       <li><a>Contacts</a></li>
                     </ul>
                   </div>
-                  <a class="btn btn-ghost text-2xl lg:text-4xl font-extrabold ">Hockey<span class="text-[#FF4240]">'</span>s</a>
+                  <a class="btn btn-ghost text-sm lg:text-4xl font-extrabold ">Hockey<span class="text-[#FF4240]">'</span>s</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                   <ul class="font-bold menu menu-horizontal px-1">
@@ -75,15 +75,76 @@
                 <li><a>Contacts</a></li>
                   </ul>
                 </div>
-                <div class="navbar-end">
                   <a class="btn bg-primary-btn-bg text-white  lg:text-xl px-6 ">Get Tickets</a>
                 </div>
               </div>
         </nav>
+        <!-- slider images -->
+        <section class="mb-32">
+          <div class="carousel w-full rounded-xl">
+            <div id="slide1" class="carousel-item relative w-full">
+              <img src="Images/1.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide2" class="btn btn-circle">❮</a> 
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide2" class="carousel-item relative w-full">
+              <img src="Images/1.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide1" class="btn btn-circle">❮</a> 
+                <a href="#slide1" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+         
+              </div>
+              <div class="p-8 bg-black rounded-xl mt-4 lg:w-5/12 lg:absolute lg:bottom-5 lg:right-40">
+                <h1 class="text-2xl font-extrabold text-white mb-4">Meet all the heroes from the field</h1>
+
+                <p class="font-medium text-white">In the vibrant and competitive world of field hockey, a diverse array of heroes emerges, each bringing a unique set of skills and passion to the pitch. </p>
+              </div>
+            
+          
+        </section>
 
     </header>
 
     <main>
+
+      <!--progress bars -->
+
+      <section>
+            <div class="text-center mb-20 ">
+              <h1 class="text-4xl font-extrabold text-white mb-6">Professional Hockeys Club</h1>
+
+              <p class="font-medium text-white">A Professional Hockey Club stands as the epitome of excellence in the dynamic world of hockey. With a rich legacy and a commitment to the highest standards of performance, these clubs serve as the rallying point for skilled athletes.</p>
+            </div>
+
+ 
+            <!-- % bars -->
+            <div class="flex flex-col ml-20 space-y-5 lg:space-y-0 lg:ml-0 lg:flex-row gap-x-36">
+            <div>
+            <img class="" src="Images/Group 9.svg" alt="">
+            <h1 class="text-xl  mt-5 ml-3 font-semibold text-white">Prayer Facility</h1>
+            <p class="ml-3 mt-3">Spacious and well-equipped locker rooms with individual stalls for each player. </p>
+           </div>
+           <div>
+            <img class="" src="Images/Group 9 (1).svg" alt="">
+            <h1 class="text-xl  mt-5  font-semibold text-white">Experienced Coach</h1>
+            <p class=" mt-3">Successful coaching experiences, whether in developing individual athletes or leading teams to victories .</p>
+           </div>
+           <div>
+            <img class="" src="Images/Group 9 (2).svg" alt="">
+            <h1 class="text-xl  mt-5  ml-3 font-semibold text-white">Senior Player</h1>
+            <p class="ml-3 mt-3">Senior players frequently serve as mentors for less experienced individuals, offering guidance, sharing knowledge, and providing support for professional development..</p>
+           </div>
+           <div>
+            <img class="" src="Images/Group 9 (3).svg" alt="">
+            <h1 class="text-xl  mt-5  ml-3 font-semibold text-white">Training Ground</h1>
+            <p class="ml-3 mt-3">Access to sports-specific equipment required for training sessions, such as goalposts, nets, balls, and training aids..</p>
+           </div>
+          </div>
+      </section>
 
     </main>
      
